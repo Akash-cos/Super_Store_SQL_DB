@@ -54,7 +54,7 @@ WITH rfm AS (
     GROUP BY 'Customer ID'
 )
 SELECT
-    'Customer ID',super_storesuper_store
+    'Customer ID',
     Recency,
     Frequency,
     Monetary,
